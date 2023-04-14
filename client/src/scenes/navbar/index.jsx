@@ -42,7 +42,9 @@ const Navbar = () => {
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
 
-  const fullName = `${user.firstName} ${user.lastName}`;
+  const fullName = "Vinson Wong";
+  // REPLACE MY NAME WITH THIS AFTER BACKEND IS IMPLMENTED
+  // `${user.firstName} ${user.lastName}`
 
   return <FlexBetween padding="1rem 6%" backgroundColor={alt}>
     <FlexBetween gap="1.75rem">
